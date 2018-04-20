@@ -14,6 +14,7 @@ namespace GitCommit
         static void Main(string[] args)
         {
             string projectPath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
+            Console.WriteLine(projectPath);
             //Process.Start("cmd", "");
             //Process prc = new Process();
             //prc.Start();
@@ -42,18 +43,18 @@ namespace GitCommit
                 {
                     sw.WriteLine("cd " + projectPath);
                     Thread.Sleep(4000);
-                    sw.WriteLine("git init");
+                    //sw.WriteLine("git init");
                     Thread.Sleep(4000);
                     sw.WriteLine("git add .");
                     //Thread.Sleep(5000);
-                    
-                    sw.WriteLine("git commit -m 'first commit'");
-                    Thread.Sleep(4000);
                     sw.WriteLine("git remote add origin https://github.com/samin-batra/Dorm_Room_Hackathon.git");
+                    Thread.Sleep(5000);
+                    sw.WriteLine("git commit -m 'first commit'");
+                   // Thread.Sleep(4000);
                     Thread.Sleep(4000);
                     //sw.WriteLine("git remote -v");
-                    Thread.Sleep(4000);
-                    sw.WriteLine("git push -u origin master");
+                    //Thread.Sleep(4000);
+                    sw.WriteLine("git push origin master");
                     Thread.Sleep(4000);
                 }
             }
