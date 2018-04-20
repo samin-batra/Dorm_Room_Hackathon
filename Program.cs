@@ -139,8 +139,10 @@ namespace GitCommit
                     Thread.Sleep(4000);
                     sw.WriteLine("git push -u origin master");
                     Thread.Sleep(4000);
+                   
 
                 }
+                p.Close();
             }
 
             //prc.StartInfo.FileName = "C:/Program Files/Git/bin/git.exe";
