@@ -230,10 +230,11 @@ namespace GitCommit
             {
                 if (sw.BaseStream.CanWrite)
                 {
-                    //sw.WriteLine("cd " + projectPath);
+                    sw.WriteLine("cd C:\\Users");
                     //Thread.Sleep(4000);
                     //sw.WriteLine("git init");
                     //Thread.Sleep(4000);
+                    Thread.Sleep(5000);
                     sw.WriteLine("git clone " + GitUrl);
                     //Thread.Sleep(5000);
                     //sw.WriteLine("git remote add origin https://github.com/samin-batra/Dorm_Room_Hackathon.git");
