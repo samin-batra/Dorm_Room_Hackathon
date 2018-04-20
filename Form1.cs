@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using GitCommit;
 
 namespace WindowsFormsApplication1
 {
@@ -44,7 +45,7 @@ namespace WindowsFormsApplication1
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Program.git();
         }
     }
 }
