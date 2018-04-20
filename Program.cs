@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using System.Diagnostics;
 using System.IO;
 using System.Threading;
+using System.Windows.Forms;
+using WindowsFormsApplication1;
 
 namespace GitCommit
 {
@@ -66,15 +68,15 @@ namespace GitCommit
 
             //prc.StartInfo.Arguments = "git init";
             //prc.Start();
-           // Process.Start("C://Program Files//Git//bin//Git.exe",@"init");
+            // Process.Start("C://Program Files//Git//bin//Git.exe",@"init");
             //Thread.Sleep(10000);
             // prc.StartInfo.FileName = "C://Program Files//Git//bin//git.exe";
             //prc.StartInfo.Arguments = "git commit -m 'First Commit'";
             //prc.Start();
-           //Process.Start("C://Program Files//Git//bin//Git.exe","commit -m 'First Commit'");
+            //Process.Start("C://Program Files//Git//bin//Git.exe","commit -m 'First Commit'");
             //prc.StartInfo.FileName = "C://Program Files//Git//bin//git.exe";
-           // prc.StartInfo.Arguments = "git remote add origin  'https://github.com/samin-batra/Dorm_Room_Hackathon.git'";
-           // prc.Start();
+            // prc.StartInfo.Arguments = "git remote add origin  'https://github.com/samin-batra/Dorm_Room_Hackathon.git'";
+            // prc.Start();
             //Process.Start("C://Program Files//Git//bin//Git.exe","remote add origin 'https://github.com/samin-batra/Dorm_Room_Hackathon.git'");
             //prc.StartInfo.FileName = "C://Program Files//Git//bin//git.exe";
             //prc.StartInfo.Arguments = "git remote -v";
@@ -84,6 +86,9 @@ namespace GitCommit
             //prc.StartInfo.Arguments = "git push origin master";
             //prc.Start();
             //Process.Start("C://Program Files//Git//bin//Git.exe", "push origin master");
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
         }
     }
 }
