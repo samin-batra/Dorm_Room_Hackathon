@@ -1,0 +1,7 @@
+c:\users\samin_batra\source\repos\GitCommit\GitCommit\bin\Debug\GitCommit.exe.config
+c:\users\samin_batra\source\repos\GitCommit\GitCommit\bin\Debug\GitCommit.exe
+c:\users\samin_batra\source\repos\GitCommit\GitCommit\bin\Debug\GitCommit.pdb
+c:\users\samin_batra\source\repos\GitCommit\GitCommit\obj\Debug\GitCommit.csprojResolveAssemblyReference.cache
+c:\users\samin_batra\source\repos\GitCommit\GitCommit\obj\Debug\GitCommit.csproj.CoreCompileInputs.cache
+c:\users\samin_batra\source\repos\GitCommit\GitCommit\obj\Debug\GitCommit.exe
+c:\users\samin_batra\source\repos\GitCommit\GitCommit\obj\Debug\GitCommit.pdb
