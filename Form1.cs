@@ -45,7 +45,11 @@ namespace WindowsFormsApplication1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Program.git();
+            if (comboBox1.Text == "TFS" && comboBox2.Text == "Git")
+            {
+                Program.TFSToGit(Source.Text, textBox2.Text);
+            }
+            //Program.git();
         }
     }
 }

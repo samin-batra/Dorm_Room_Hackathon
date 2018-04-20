@@ -91,7 +91,7 @@ namespace GitCommit
             Application.Run(new Form1());
         }
 
-        public static void git()
+        public static void TFSToGit(string TFSUrl,string GitUrl)
         {
             string projectPath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
             Console.WriteLine(projectPath);
@@ -107,7 +107,8 @@ namespace GitCommit
             //Console.WriteLine(stream.ToString());
             //Thread.Sleep(10000);
 
-            string url = "https://github.com/samin-batra/Dorm_Room_Hackathon";
+            //string url = "https://github.com/samin-batra/Dorm_Room_Hackathon";
+            string url = GitUrl;
             Process p = new Process();
             ProcessStartInfo info = new ProcessStartInfo();
             info.FileName = "cmd.exe";
