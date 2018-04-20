@@ -47,15 +47,18 @@ namespace GitCommit
                     Thread.Sleep(4000);
                     sw.WriteLine("git add .");
                     //Thread.Sleep(5000);
-                    sw.WriteLine("git remote add origin https://github.com/samin-batra/Dorm_Room_Hackathon.git");
+                    //sw.WriteLine("git remote add origin https://github.com/samin-batra/Dorm_Room_Hackathon.git");
                     Thread.Sleep(5000);
-                    sw.WriteLine("git commit -m 'first commit'");
-                   // Thread.Sleep(4000);
-                    Thread.Sleep(4000);
                     //sw.WriteLine("git remote -v");
                     //Thread.Sleep(4000);
-                    sw.WriteLine("git push origin master");
+                    
+                    //string command = "git commit -m \"intial commit\"";
+                    sw.WriteLine("git commit -m \"first commit\"");
+                    // Thread.Sleep(4000);
                     Thread.Sleep(4000);
+                    sw.WriteLine("git push -u origin master");
+                    Thread.Sleep(4000);
+
                 }
             }
 
